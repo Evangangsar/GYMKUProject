@@ -3,7 +3,7 @@
 }
 .bg-image {
   background-image: url(assets/assets.jpg);
-  width: 100%;
+  width: 120%;
   height: 140vh;
   background-size: cover;
 }
@@ -80,7 +80,7 @@ label {
   left: 115px;
   top: 891x;
   margin-top: 85px;
-  margin-left: 90px;
+  margin-left: 140px;
   border: 2px solid #1fd5ee;
   border-bottom-left-radius: 100px;
 }
@@ -92,34 +92,48 @@ label {
   top: 891x;
   border-bottom-left-radius: 20px;
   margin-top: -30px;
-  margin-left: 50px;
+  margin-left: 80px;
 }
-.text {
-  font-family: 'Inter';
-  margin-left: 750px;
-  margin-top: -400px;
+.text h2 {
+  font-family: 'Playfair Display';
+  font-weight: 800;
 }
-.text a {
-  font-family: 'Inter';
+.text span {
+  color: black;
   margin-left: 1px;
 }
-
+.text {
+  margin-left: 900px;
+  margin-top: -400px;
+  font-weight: 400;
+}
+.text a {
+  margin-left: 1px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #1fd5ee;
+}
+.text2 {
+  margin-left: 25px;
+}
 .text2 h2 {
   font-family: 'Playfair Display';
+  font-weight: 800;
   padding: 300px;
   margin-left: -200px;
   margin-bottom: -50px;
   margin-top: 100px;
 }
 .text2 p {
-  font-family: 'Inter';
   margin-top: -300px;
   margin-left: 100px;
 }
 
 a {
-  font-family: 'Inter';
+  color: #1fd5ee;
   margin-left: 100px;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .border-gambar2 {
@@ -128,7 +142,7 @@ a {
   width: 558px;
   left: 90px;
   top: 891x;
-  margin-right: 50px;
+  margin-right: -200px;
   border: 2px solid #1fd5ee;
   border-bottom-right-radius: 100px;
   margin-top: -200px;
@@ -148,7 +162,7 @@ a {
   left: 115px;
   top: 891x;
   margin-top: 400px;
-  margin-left: 90px;
+  margin-left: 150px;
   border: 2px solid #1fd5ee;
   border-bottom-left-radius: 100px;
 }
@@ -161,45 +175,49 @@ a {
   top: 891x;
   border-bottom-left-radius: 100px;
   margin-top: -30px;
-  margin-left: 50px;
+  margin-left: 75px;
 }
 
 .text3 {
-  font-family: 'Playfair Display';
-  margin-left: 800px;
+  margin-left: 900px;
   margin-top: -400px;
 }
+.text3 h2 {
+  font-family: 'Playfair Display';
+  font-weight: 800;
+}
 span {
-  font-family: 'Inter';
   margin-left: -100px;
+  color: #1fd5ee;
 }
 
 .text4 {
-  font-family: 'Playfair Display';
   padding: 300px;
   text-align: center;
+  margin-right: -200px;
 }
-.text4 h3 {
-  font-weight: 800px;
+.text4 h2 {
+  font-family: 'Playfair Display';
+  font-weight: 700;
 }
 
 .item-pictures .image4 {
   margin-top: -200px;
-  margin-left: 54px;
+  margin-left: 108px;
 }
 
 .item-pictures .image5 {
-  margin-left: 378px;
+  margin-left: 432px;
   margin-top: -360px;
 }
 
 .item-pictures .image6 {
-  margin-left: 702px;
+  margin-left: 756px;
   margin-top: -360px;
 }
 
 .item-pictures .image7 {
-  margin-left: 1026px;
+  margin-left: 1080px;
   margin-top: -360px;
 }
 
@@ -207,9 +225,9 @@ span {
   float: right;
   height: 445px;
   width: 558px;
-  left: 90px;
+  left: 200px;
   top: 891x;
-  margin-right: 50px;
+  margin-right: -200px;
   border: 2px solid #1fd5ee;
   border-bottom-right-radius: 100px;
   margin-top: 150px;
@@ -224,9 +242,16 @@ span {
   margin-top: -25px;
 }
 .text8 {
-  font-family: 'inter';
   margin-top: 200px;
-  margin-left: 50px;
+  margin-left: 150px;
+}
+.text8 h2 {
+  font-family: 'Playfair Display';
+  font-weight: 800;
+}
+.text p {
+  font-family: 'inter';
+  color: #1fd5ee;
 }
 
 .footer {
@@ -234,7 +259,7 @@ span {
   margin-top: 450px;
   background-color: black;
   height: 344px;
-  width: 100%;
+  width: 120%;
   top: 4197px;
 }
 
@@ -246,6 +271,7 @@ span {
   font-size: 25px;
   line-height: 30px;
   padding: 50px;
+  margin-left: 100px;
 }
 .footer .brand h2 {
   font-size: 12px;
@@ -292,7 +318,7 @@ span {
 .subscribe {
   color: #ffffff;
   float: right;
-  margin-right: 100px;
+  margin-right: -50px;
   margin-top: -195px;
 }
 
@@ -323,5 +349,6 @@ span {
 .akhir-footer {
   color: #1fd5ee;
   text-align: center;
+  margin-right: -200px;
   margin-top: 90px;
 }
